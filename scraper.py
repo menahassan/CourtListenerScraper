@@ -7,7 +7,7 @@ import time
 total = []
 #set executable path
 driver=webdriver.Chrome()
-pages = 1
+pages = 7
 df = pd.DataFrame()
 
 for page in range(1, pages+1):
